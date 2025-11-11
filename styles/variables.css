@@ -1,5 +1,5 @@
 :root {
-  --bg-image: url('../images/cover-image-dark.png');
+  --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028; /* * */
   --text-color: #f1b2ce;
   --accent-color: #ff0070; /* * */
@@ -10,7 +10,7 @@
 }
 
 .theme-light {
-  --bg-image: url('../images/cover-image-light.png');
+  --bg-image: url(../images/cover-image-light.png);
   --bg-color: #fff1f7; /* * */
   --text-color: #353430; /* * */
   --accent-color: #ff8dcb; /* * */
@@ -21,7 +21,7 @@
 }
 
 .theme-dark {
-  --bg-image: url('../images/cover-image-dark.png');
+  --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028; /* * */
   --text-color: #f1b2ce;
   --accent-color: #ff0070; /* * */
@@ -30,4 +30,3 @@
   --card-title-color: #000028; /* * */
   --decorated-zone-color: #ff0070; /* * */
 }
-

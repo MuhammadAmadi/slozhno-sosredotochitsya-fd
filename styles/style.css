@@ -78,7 +78,7 @@
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
-  color: var(--decorated-zone-color)
+  color: var(--decorated-zone-color);
 }
 
 .header__theme-menu-button:hover {
@@ -145,7 +145,8 @@
 }
 
 .content_section {
-  padding: clamp(40px, 10vw, 60px) clamp(10px, 2.5vw, 20px) clamp(10px, 2.5vw, 20px);
+  padding: clamp(40px, 10vw, 60px) clamp(10px, 2.5vw, 20px)
+    clamp(10px, 2.5vw, 20px);
   font-family: inherit;
   font-size: 18px;
   line-height: 23.4px;
@@ -160,6 +161,7 @@
   font-weight: bold;
   color: var(--accent-color);
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -194,7 +196,7 @@
   text-decoration: none;
   display: inline-block;
   margin: 0;
-  text-shadow: 0.12em 0.12em 0px var(--accent-color);
+  text-shadow: 0.12em 0.12em 0 var(--accent-color);
 }
 
 .card_list {
