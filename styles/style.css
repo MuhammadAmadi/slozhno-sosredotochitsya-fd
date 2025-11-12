@@ -81,6 +81,14 @@
   color: var(--decorated-zone-color);
 }
 
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--decorated-zone-color);
+}
+
 .header__theme-menu-button:hover {
   outline-color: var(--decorated-zone-color);
 }
@@ -208,6 +216,10 @@
   display: inline-block;
   margin: 0;
   text-shadow: 0.08em 0.08em 0 var(--accent-color);
+}
+
+.card_text a:hover {
+  border-bottom: 1px solid var(--decorated-zone-color);
 }
 
 .card_list {
