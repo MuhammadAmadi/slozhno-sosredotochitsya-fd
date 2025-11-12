@@ -10,3 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root.theme-light .header_decoration {
+  display: none;
+}
