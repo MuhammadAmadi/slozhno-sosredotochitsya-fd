@@ -1,0 +1,10 @@
+:root.theme-dark {
+  --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --section-title-color: #ff0070;
+  --card-title-color: #000028;
+  --decorated-zone-color: #ff0070;
+}

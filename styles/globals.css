@@ -34,6 +34,11 @@ ul {
   list-style: none;
 }
 
+li {
+  margin: 0 auto;
+  padding: 0;
+}
+
 picture {
   margin: 0;
   padding: 0;

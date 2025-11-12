@@ -4,6 +4,35 @@
   переключая тему
 */
 
-:root.theme-light .header_decoration {
+:root.theme-light {
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #fff1f7;
+  --text-color: #353430;
+  --accent-color: #ff8dcb;
+  --title-color: #ffc2e6;
+  --section-title-color: #353430;
+  --card-title-color: #353430;
+  --decorated-zone-color: #353430;
+}
+
+:root.theme-light .header_decoration-text {
   display: none;
+}
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #fff1f7;
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+    --title-color: #ffc2e6;
+    --section-title-color: #353430;
+    --card-title-color: #353430;
+    --decorated-zone-color: #353430;
+  }
+
+  .header_decoration-text {
+    display: none;
+  }
 }
