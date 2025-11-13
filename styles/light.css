@@ -13,10 +13,7 @@
   --section-title-color: #353430;
   --card-title-color: #353430;
   --decorated-zone-color: #353430;
-}
-
-:root.theme-light .header_decoration-text {
-  display: none;
+  --display-rec: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -30,9 +27,6 @@
     --section-title-color: #353430;
     --card-title-color: #353430;
     --decorated-zone-color: #353430;
-  }
-
-  .header_decoration-text {
-    display: none;
+    --display-rec: none;
   }
 }

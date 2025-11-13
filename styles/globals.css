@@ -11,9 +11,9 @@ body {
   width: 100%;
   min-inline-size: 375px;
   max-inline-size: 1440px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   overflow-y: auto;
-  overflow-x: hidden;
 }
 
 h1,
@@ -50,4 +50,10 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
